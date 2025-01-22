@@ -97,11 +97,13 @@ class ConnectPageState extends State<ConnectPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AppKitModalNetworkSelectButton(
+                size: BaseButtonSize.small,
                 appKit: widget.appKitModal,
                 size: BaseButtonSize.small,
               ),
               const SizedBox.square(dimension: 8.0),
               AppKitModalConnectButton(
+                size: BaseButtonSize.small,
                 appKit: widget.appKitModal,
                 size: BaseButtonSize.small,
               ),
