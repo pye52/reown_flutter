@@ -80,7 +80,7 @@ class ReownCoreUtils {
       <String>['Reown-Flutter', sdkVersion].join('-'),
       os,
       id,
-    ].join('/');
+    ].join('/').toLowerCase();
   }
 
   static String formatRelayRpcUrl({
